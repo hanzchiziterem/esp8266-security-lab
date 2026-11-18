@@ -12,8 +12,8 @@
 | :---: | :--- | :---: | :---: |
 | **0** | **Engineering Workflow Preflight** | ✅ **COMPLETED** | Husky, Commitlint, Turbo, Lockfile verified |
 | **1** | **Repository Audit & Architecture** | ✅ **COMPLETED** | Audit, Architecture & Roadmap produced |
-| **2** | **Design System & Public Landing Page** | 🔜 **NEXT UP** | Pending implementation |
-| **3** | **Student Authentication & RBAC** | ⬜ Scheduled | Pending |
+| **2** | **Design System & Public Landing Page** | ✅ **COMPLETED** | Production Landing Page, Hardware Visual, All Gates Passed |
+| **3** | **Student Authentication & RBAC** | 🔜 **NEXT UP** | Pending implementation |
 | **4** | **Course Delivery & Progress Tracking** | ⬜ Scheduled | Pending |
 | **5** | **AI Assessment & Grading Engine** | ⬜ Scheduled | Pending |
 | **6** | **Student Learning Dashboard & Analytics**| ⬜ Scheduled | Pending |
@@ -43,16 +43,16 @@
 - [x] Produce `docs/ARCHITECTURE.md`.
 - [x] Produce `docs/IMPLEMENTATION_ROADMAP.md`.
 
-### Stage 2 — Design System & Public Landing Page 🔜
-- [ ] Implement dark-first cybersecurity palette in `apps/web/src/index.css` and Tailwind.
-- [ ] Build responsive Navigation with mobile drawer and quick links.
-- [ ] Build Hero section with WeMos D1 hardware illustration and primary CTA.
-- [ ] Build Real-time Platform Statistics component (dynamic, un-fabricated data).
-- [ ] Build 8-Module Curriculum preview cards reflecting course status.
-- [ ] Build Learning Methodology section (9-step pedagogical lifecycle).
-- [ ] Build "About the Creator" journey section.
-- [ ] Build Contributor & Sponsor acknowledgement showcase.
-- [ ] Build Footer with open-source GitHub links, license, and community channels.
+### Stage 2 — Design System & Public Landing Page ✅
+- [x] Implement dark-first cybersecurity palette in `apps/web/src/index.css` and Tailwind.
+- [x] Build responsive Navigation with mobile drawer and quick links.
+- [x] Build Hero section with interactive WeMos D1 hardware illustration and primary CTA.
+- [x] Build Real-time Platform Statistics component (dynamic, un-fabricated data).
+- [x] Build 8-Module Curriculum preview cards reflecting course status and safety boundaries.
+- [x] Build Learning Methodology section (9-step pedagogical lifecycle).
+- [x] Build "About the Creator" journey section in honest first-person narrative.
+- [x] Build Contributor & Sponsor acknowledgement showcase with realistic tiers.
+- [x] Build Footer with open-source GitHub links, license, and community channels.
 
 ### Stage 3 — Authentication & Role-Based Access Control
 - [ ] Backend auth service with bcrypt password hashing and secure JWT cookies.
